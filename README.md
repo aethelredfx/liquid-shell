@@ -46,7 +46,7 @@ Minimalist configuration for SwayFX (Wayland).
 
 </details>
 
-### Install
+# Install
 ## Arch Linux
 ``` sudo pacman -S git sway swayfx autotiling swaybg waybar kitty rofi swaylock papirus-icon-theme ttf-fira-code ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols
 cd ~/.config
@@ -79,7 +79,7 @@ sudo apt install -y fonts-font-awesome
 fc-cache -fv
 ```
 
-## Once installed, do this
+# Once installed, do this
 Open the terminal and enter the command ``` nano ~/.config/waybar/config
 ```
 Press Ctrl + W and find "timezone" 
