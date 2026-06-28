@@ -45,3 +45,33 @@ Minimalist configuration for SwayFX (Wayland).
 
 
 </details>
+
+### Install
+## Arch Linux
+''' sudo pacman -S git sway swayfx autotiling swaybg waybar kitty rofi swaylock papirus-icon-theme ttf-fira-code ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols
+cd ~/.config
+git clone https://github.com/swpuzo/liquid-sway
+cp ~/.config/liquid-sway ~/.config/ '''
+
+## Fedora Linux
+''' sudo dnf install -y git sway autotiling swaybg waybar kitty rofi-wayland swaylock papirus-icon-theme fira-code-fonts jetbrains-mono-fonts google-noto-sans-symbols-fonts nerd-fonts-repo-fonts jetbrains-mono-nerd-fonts
+sudo dnf copr enable swayfx/swayfx -y && sudo dnf install -y swayfx
+cd ~/.config
+git clone https://github.com/swpuzo/liquid-sway
+cp ~/.config/liquid-sway ~/.config/ '''
+
+## Debian 
+''' sudo apt update && sudo apt install -y git sway autotiling swaybg waybar kitty rofi swaylock papirus-icon-theme fonts-firacode
+sudo apt install -y meson pkg-config cmake git scdoc wayland-protocols \
+libwayland-dev libpcre2-dev libjson-c-dev libpango1.0-dev libcairo2-dev \
+libgdk-pixbuf-2.0-dev libpciaccess-dev libinput-dev libxkbcommon-dev \
+libpixman-1-dev libudev-dev libgbm-dev libgles2-mesa-dev libseat-dev
+mkdir -p ~/build && cd ~/build
+git clone https://github.com/WillPower3309/swayfx.git
+cd swayfx
+meson setup build/
+ninja -C build/
+sudo ninja -C build/ install
+mkdir -p ~/.local/share/fonts
+sudo apt install -y fonts-font-awesome
+fc-cache -fv '''
