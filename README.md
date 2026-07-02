@@ -58,18 +58,20 @@ Minimalist configuration for SwayFX (Wayland).
 ## Arch Linux
 ```bash
 sudo pacman -S git sway swayfx autotiling swaybg waybar kitty rofi swaylock papirus-icon-theme ttf-fira-code ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols gsimplecal
-cd ~/.config
+cd ~
 git clone https://github.com/swpuzo/liquid-sway
-cp ~/.config/liquid-sway ~/.config/
+cp -r ~/liquid-sway/* ~/.config/
+rm -rf ~/liquid-sway
 ```
 ## Fedora Linux
 ```bash
 sudo dnf install -y git sway autotiling swaybg waybar kitty rofi-wayland swaylock papirus-icon-theme fira-code-fonts jetbrains-mono-fonts google-noto-sans-symbols-fonts nerd-fonts-repo-fonts jetbrains-mono-nerd-fonts
 sudo dnf copr enable swayfx/swayfx -y && sudo dnf install -y swayfx
 sudo dnf install gsimplecal
-cd ~/.config
+cd ~
 git clone https://github.com/swpuzo/liquid-sway
-cp ~/.config/liquid-sway ~/.config/
+cp -r ~/liquid-sway/* ~/.config/
+rm -rf ~/liquid-sway
 ```
 ## Debian 
 ```bash
@@ -88,9 +90,10 @@ mkdir -p ~/.local/share/fonts
 sudo apt install -y fonts-font-awesome
 fc-cache -fv
 sudo apt install gsimplecal
-cd ~/.config
+cd ~
 git clone https://github.com/swpuzo/liquid-sway
-cp ~/.config/liquid-sway ~/.config/
+cp -r ~/liquid-sway/* ~/.config/
+rm -rf ~/liquid-sway
 ```
 
 # Once installed, do this
