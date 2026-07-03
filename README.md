@@ -33,7 +33,7 @@ Minimalist configuration for SwayFX (Wayland).
 | `Mod` + `c` | Clipboard Manager | `cliphist` |
 | `Mod` + `b` | Browser | `firefox` |
 | `Mod` + `n` | File Manager | `dolphin` |
-| `Mod` + `w` |  | `Wallpaper Manager` | `waypaper` |
+| `Mod` + `w` | Wallpaper Manager | `waypaper` |
 | **Navigation & Workspaces** | | |
 | `Mod` + `Tab` | Visual Window List | `rofi -show window` |
 | **System** | | |
