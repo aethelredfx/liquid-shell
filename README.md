@@ -52,6 +52,7 @@ Minimalist configuration for SwayFX (Wayland).
 ## Arch Linux
 ```bash
 sudo pacman -S git swayfx autotiling swaybg waybar kitty rofi swaylock papirus-icon-theme ttf-fira-code ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols gsimplecal
+yay -S waypaper
 cd ~
 git clone https://github.com/swpuzo/liquid-sway
 cp -r ~/liquid-sway/* ~/.config/
@@ -62,6 +63,8 @@ rm -rf ~/liquid-sway
 sudo dnf install -y git autotiling swaybg waybar kitty rofi-wayland swaylock papirus-icon-theme fira-code-fonts jetbrains-mono-fonts google-noto-sans-symbols-fonts nerd-fonts-repo-fonts jetbrains-mono-nerd-fonts
 sudo dnf copr enable swayfx/swayfx -y && sudo dnf install -y swayfx
 sudo dnf install gsimplecal
+sudo dnf copr enable solopasha/hyprland
+sudo dnf install waypaper
 cd ~
 git clone https://github.com/swpuzo/liquid-sway
 cp -r ~/liquid-sway/* ~/.config/
@@ -84,6 +87,9 @@ mkdir -p ~/.local/share/fonts
 sudo apt install -y fonts-font-awesome
 fc-cache -fv
 sudo apt install gsimplecal
+sudo apt update
+sudo apt install python3-pip pipx python3-gi python3-pil
+pipx install waypaper
 cd ~
 git clone https://github.com/swpuzo/liquid-sway
 cp -r ~/liquid-sway/* ~/.config/
