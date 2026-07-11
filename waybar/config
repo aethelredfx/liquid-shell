@@ -55,7 +55,7 @@
     },
     "clock#time": {
         "format": "  {:%H:%M:%S}",
-        "timezone": "Europe/Kyiv",
+        "timezone": "Europe/London",
         "interval": 1,
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
