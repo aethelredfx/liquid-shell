@@ -149,7 +149,7 @@ exec_always "pkill -x waybar; waybar > /dev/null 2>&1 &"
 
 input * {
     xkb_layout "us,ru"
-    xkb_options "grp:win_space_toggle"
+    xkb_options "grp:alt_shift_toggle"
 }
 
 for_window [app_id="gsimplecal"] {
