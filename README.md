@@ -2,11 +2,13 @@
 Minimalist configuration for SwayFX (Wayland).
 
 ## Preview
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/d75f462f-ecd9-4dbd-8cad-94081f1712d6" />
+<img width="1922" height="1080" alt="image" src="https://github.com/user-attachments/assets/119fbc7a-217b-44ef-9d0c-073d4173a9aa" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/482e03bf-f52c-48f1-bf3b-b4157683d255" />
 
 ## Wallpapers
-<img width="3840" height="2160" alt="wallpaper" src="https://github.com/user-attachments/assets/14a70933-313b-40db-bc48-8e7d1f42bd31" />
-<img width="3840" height="2160" alt="fffffff" src="https://github.com/user-attachments/assets/469e7680-b5dc-443e-b9c6-17292891c693" />
+<img width="3600" height="2000" alt="moon-black-background-space-planet-full-moon-3600x2000-2043" src="https://github.com/user-attachments/assets/7a45f092-5f38-4362-a7d1-54b412ec7cf1" />
+<img width="3840" height="2160" alt="europa-jupiter-moon-3840x2160-26741" src="https://github.com/user-attachments/assets/1e841bd2-adcc-4274-aa99-1a48383a1a97" />
+
 
 
 ## Components
