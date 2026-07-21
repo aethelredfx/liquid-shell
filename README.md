@@ -62,8 +62,8 @@ Minimalist configuration for SwayFX (Wayland).
 ## Arch Linux
 ```bash
 sudo pacman -Syu
-sudo pacman -S git swayfx autotiling swaybg waybar kitty rofi swaylock papirus-icon-theme ttf-fira-code ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols gsimplecal wtype rofi-emoji dolphin bluez bluez-utils blueman 
-yay -S waytrogen wlogout
+sudo pacman -S git autotiling swaybg waybar kitty rofi swaylock papirus-icon-theme ttf-fira-code ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols gsimplecal wtype rofi-emoji dolphin bluez bluez-utils blueman 
+yay -S waytrogen wlogout swayfx
 cd ~
 git clone https://github.com/aethelredfx/liquid-shell
 cp -r ~/liquid-shell/* ~/.config/
